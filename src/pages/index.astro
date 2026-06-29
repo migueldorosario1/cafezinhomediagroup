@@ -1,0 +1,309 @@
+---
+import '../styles/global.css';
+
+const portals = [
+  {
+    id: "ocafezinho",
+    name: "O Cafezinho",
+    slogan: "Opinião, Política e Análise Crítica",
+    url: "https://www.ocafezinho.com",
+    description: "O principal portal de notícias e análises políticas independentes do Brasil, focado em trazer a verdade sob uma perspectiva crítica, progressista e soberana.",
+    lang: "pt",
+    type: "editorial",
+    badge: "Principal / PT-BR",
+    icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M17 8h1a4 4 0 1 1 0 8h-1" />
+      <path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z" />
+      <line x1="6" y1="2" x2="6" y2="4" />
+      <line x1="10" y1="2" x2="10" y2="4" />
+      <line x1="14" y1="2" x2="14" y2="4" />
+    </svg>`
+  },
+  {
+    id: "globalsouth",
+    name: "Global South News",
+    slogan: "Geopolitics & Insights from the Global South",
+    url: "https://globalsouth.news",
+    description: "An independent geopolitical news platform covering global events, multipolar transitions, and trade policies from the unique perspective of the Global South.",
+    lang: "en",
+    type: "editorial",
+    badge: "Internacional / EN",
+    icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="12" r="10" />
+      <line x1="2" y1="12" x2="22" y2="12" />
+      <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+    </svg>`
+  },
+  {
+    id: "riocarta",
+    name: "Rio Carta",
+    slogan: "O Porta-Voz do Rio de Janeiro",
+    url: "https://www.riocarta.com",
+    description: "Jornalismo local dinâmico e independente, cobrindo política, cultura, cotidiano e serviços públicos em toda a região metropolitana do Rio de Janeiro.",
+    lang: "pt",
+    type: "editorial",
+    badge: "Regional / PT-BR",
+    icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+      <circle cx="12" cy="10" r="3" />
+    </svg>`
+  },
+  {
+    id: "mundotrilhos",
+    name: "Mundo Trilhos",
+    slogan: "Mobilidade e Logística Ferroviária",
+    url: "https://mundotrilhos.com",
+    description: "Análises aprofundadas sobre transporte metroferroviário, infraestrutura nacional de trilhos, logística de carga e políticas públicas de mobilidade urbana.",
+    lang: "pt",
+    type: "specialized",
+    badge: "Especializado / PT-BR",
+    icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="4" y="3" width="16" height="16" rx="2" />
+      <path d="M4 11h16" />
+      <path d="M12 3v8" />
+      <path d="M8 15h.01" />
+      <path d="M16 15h.01" />
+      <path d="M6 19v2" />
+      <path d="M18 19v2" />
+    </svg>`
+  },
+  {
+    id: "railpost",
+    name: "Rail Post",
+    slogan: "Global Rail Infrastructure & Logistics",
+    url: "https://railpost.news",
+    description: "A specialized international portal tracking advancements, investments, policies, and technological disruptions in rail transport and global supply chains.",
+    lang: "en",
+    type: "specialized",
+    badge: "Especializado / EN",
+    icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M2 17h20" />
+      <path d="M2 13h20" />
+      <path d="M6 13v4" />
+      <path d="M10 13v4" />
+      <path d="M14 13v4" />
+      <path d="M18 13v4" />
+      <rect x="5" y="3" width="14" height="6" rx="1" />
+    </svg>`
+  },
+  {
+    id: "discoverbrazil",
+    name: "Discover Brazil",
+    slogan: "Culture, Nature & Politics of Brazil",
+    url: "https://discoverbrazil.news",
+    description: "English-language publication showcasing Brazil's rich biodiversity, unique cultural heritage, economic potential, and political developments to the international community.",
+    lang: "en",
+    type: "editorial",
+    badge: "Turismo & Cultura / EN",
+    icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="12" r="5" />
+      <line x1="12" y1="1" x2="12" y2="3" />
+      <line x1="12" y1="21" x2="12" y2="23" />
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+      <line x1="1" y1="12" x2="3" y2="12" />
+      <line x1="21" y1="12" x2="23" y2="12" />
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+    </svg>`
+  },
+  {
+    id: "aiatolah",
+    name: "Aiatolá",
+    slogan: "Inteligência Artificial e Futuro",
+    url: "https://aiatolah.com",
+    description: "Plataforma focada no desenvolvimento tecnológico, impacto de grandes modelos de linguagem, regulação de IA e a geopolítica da inovação digital.",
+    lang: "pt",
+    type: "specialized",
+    badge: "Tecnologia / PT-BR & EN",
+    icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <rect x="9" y="9" width="6" height="6" />
+      <line x1="9" y1="1" x2="9" y2="4" />
+      <line x1="15" y1="1" x2="15" y2="4" />
+      <line x1="9" y1="20" x2="9" y2="23" />
+      <line x1="15" y1="20" x2="15" y2="23" />
+      <line x1="20" y1="9" x2="23" y2="9" />
+      <line x1="20" y1="15" x2="23" y2="15" />
+      <line x1="1" y1="9" x2="4" y2="9" />
+      <line x1="1" y1="15" x2="4" y2="15" />
+    </svg>`
+  },
+  {
+    id: "mapario",
+    name: "Mapa Rio",
+    slogan: "Painel de Dados e Serviços Cariocas",
+    url: "https://mapa-rio.vercel.app",
+    description: "Hub de ferramentas visuais, mapas interativos de segurança, infraestrutura e monitoramento demográfico voltado para o cidadão do Rio de Janeiro.",
+    lang: "pt",
+    type: "interactive",
+    badge: "Dados & Mapas / PT-BR",
+    icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <polygon points="3 6 9 3 15 6 21 3 21 18 15 21 9 18 3 21" />
+      <line x1="9" y1="3" x2="9" y2="18" />
+      <line x1="15" y1="6" x2="15" y2="21" />
+    </svg>`
+  }
+];
+---
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" href="/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="generator" content={Astro.generator} />
+		
+		<!-- SEO Optimization -->
+		<title>Cafezinho Media Group | Central de Portais de Mídia Independente</title>
+		<meta name="description" content="Central de links e rede de portais independentes do Cafezinho Media Group, cobrindo geopolítica, política nacional, ferrovias, tecnologia e dados urbanos." />
+		<meta name="robots" content="index, follow" />
+		<meta property="og:title" content="Cafezinho Media Group | Central de Portais de Mídia Independente" />
+		<meta property="og:description" content="Central de links e rede de portais independentes do Cafezinho Media Group, cobrindo geopolítica, política nacional, ferrovias, tecnologia e dados urbanos." />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://cafezinhomediagroup.vercel.app" />
+		<meta name="twitter:card" content="summary_large_image" />
+		
+	</head>
+	<body>
+		<div class="bg-glow-orb-1"></div>
+		<div class="bg-glow-orb-2"></div>
+		<div class="bg-grid-overlay"></div>
+
+		<!-- Nav -->
+		<header>
+			<div class="app-container">
+				<div class="nav-wrapper">
+					<a href="/" class="brand" id="brand-link">
+						<div class="brand-logo-icon">C</div>
+						<div class="brand-text">Cafezinho <span>Media Group</span></div>
+					</a>
+				</div>
+			</div>
+		</header>
+
+		<main class="app-container">
+			<!-- Hero Section -->
+			<section class="hero" id="hero-section">
+				<div class="hero-tag">Portfólio de Rede</div>
+				<h1 id="main-heading">
+					<span class="gradient-text">Conectando</span> 
+					<span class="accent-text">Informação</span><br />
+					<span class="gradient-text">e Geopolítica Independente</span>
+				</h1>
+				<p class="hero-subtitle">
+					Navegue pela nossa rede de portais temáticos e canais independentes especializados em análise política, economia, ferrovias, tecnologia e dados cariocas.
+				</p>
+
+				<!-- Filter Buttons -->
+				<div class="filter-container" id="filter-controls">
+					<button class="filter-btn active" data-filter="all" id="filter-all">Todos os Sites</button>
+					<button class="filter-btn" data-filter="pt" id="filter-pt">Em Português</button>
+					<button class="filter-btn" data-filter="en" id="filter-en">In English</button>
+					<button class="filter-btn" data-filter="specialized" id="filter-specialized">Especializados</button>
+					<button class="filter-btn" data-filter="interativo" id="filter-interativo">Dados Interativos</button>
+				</div>
+			</section>
+
+			<!-- Portals Grid -->
+			<section class="portals-grid" id="portals-directory">
+				{portals.map((portal) => (
+					<a 
+						href={portal.url} 
+						target="_blank" 
+						rel="noopener noreferrer" 
+						class="portal-card" 
+						data-lang={portal.lang} 
+						data-type={portal.type}
+						id={`card-${portal.id}`}
+					>
+						<div class="card-header">
+							<div class="card-icon" set:html={portal.icon}></div>
+							<span class="card-badge">{portal.badge}</span>
+						</div>
+						<div class="card-body">
+							<h2 class="card-title">{portal.name}</h2>
+							<div class="card-slogan">{portal.slogan}</div>
+							<p class="card-description">{portal.description}</p>
+						</div>
+						<div class="card-footer">
+							<span>Acessar Portal</span>
+							<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+								<line x1="5" y1="12" x2="19" y2="12"></line>
+								<polyline points="12 5 19 12 12 19"></polyline>
+							</svg>
+						</div>
+					</a>
+				))}
+			</section>
+		</main>
+
+		<!-- Footer -->
+		<footer>
+			<div class="app-container">
+				<div class="footer-content">
+					<div class="footer-logo">Cafezinho <span>Media Group</span></div>
+					<p class="footer-desc">
+						Uma rede integrada de mídias independentes dedicadas ao debate crítico, infraestrutura estratégica de transportes, geopolítica internacional sob a ótica do Sul Global e o desenvolvimento de Inteligências Artificiais autônomas para comunicação.
+					</p>
+					<div class="footer-meta">
+						&copy; {new Date().getFullYear()} Cafezinho Media Group. Todos os direitos reservados.
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<!-- Client side Script for Card Effects and Filters -->
+		<script>
+			// Card hover spot illumination effect
+			const cards = document.querySelectorAll('.portal-card');
+			cards.forEach(card => {
+				card.addEventListener('mousemove', (e) => {
+					const rect = card.getBoundingClientRect();
+					const x = e.clientX - rect.left;
+					const y = e.clientY - rect.top;
+					(card as HTMLElement).style.setProperty('--x', `${x}px`);
+					(card as HTMLElement).style.setProperty('--y', `${y}px`);
+				});
+			});
+
+			// Filter actions
+			const filterButtons = document.querySelectorAll('.filter-btn');
+			filterButtons.forEach(btn => {
+				btn.addEventListener('click', () => {
+					// Active state toggles
+					filterButtons.forEach(b => b.classList.remove('active'));
+					btn.classList.add('active');
+
+					const filterValue = btn.getAttribute('data-filter');
+
+					cards.forEach(card => {
+						const type = card.getAttribute('data-type');
+						const lang = card.getAttribute('data-lang');
+
+						let show = false;
+						if (filterValue === 'all') {
+							show = true;
+						} else if (filterValue === 'pt' && lang === 'pt') {
+							show = true;
+						} else if (filterValue === 'en' && lang === 'en') {
+							show = true;
+						} else if (filterValue === 'specialized' && type === 'specialized') {
+							show = true;
+						} else if (filterValue === 'interativo' && type === 'interactive') {
+							show = true;
+						}
+
+						if (show) {
+							card.classList.remove('hidden');
+						} else {
+							card.classList.add('hidden');
+						}
+					});
+				});
+			});
+		</script>
+	</body>
+</html>
