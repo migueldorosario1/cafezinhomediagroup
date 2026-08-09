@@ -1,0 +1,259 @@
+{
+  "updated_at": "2026-08-09T19:31:29+00:00",
+  "usd_brl": 5.55,
+  "modelos": [
+    {
+      "id": "glm-4-flash",
+      "nome": "GLM-4 Flash (Z.ai)",
+      "preset_id": "zai",
+      "input_usd": 0.07,
+      "output_usd": 0.07,
+      "context": 128000,
+      "link": "https://z.ai/",
+      "tags": [
+        "mais barato"
+      ],
+      "rank": 1,
+      "custo_resumo_usd": 0.0011,
+      "custo_resumo_brl": 0.0062
+    },
+    {
+      "id": "deepseek-v4-flash",
+      "nome": "DeepSeek V4 Flash",
+      "preset_id": "deepseek",
+      "input_usd": 0.14,
+      "output_usd": 0.28,
+      "context": 64000,
+      "link": "https://api-docs.deepseek.com/quick_start/pricing/",
+      "tags": [
+        "econômico"
+      ],
+      "rank": 2,
+      "custo_resumo_usd": 0.0024,
+      "custo_resumo_brl": 0.0132
+    },
+    {
+      "id": "gpt-4o-mini",
+      "nome": "GPT-4o mini (OpenAI)",
+      "preset_id": "openai",
+      "input_usd": 0.15,
+      "output_usd": 0.6,
+      "context": 128000,
+      "link": "https://openai.com/api/pricing/",
+      "tags": [],
+      "rank": 3,
+      "custo_resumo_usd": 0.0029,
+      "custo_resumo_brl": 0.0158
+    },
+    {
+      "id": "mistral-small",
+      "nome": "Mistral Small (Mistral AI)",
+      "preset_id": "mistral",
+      "input_usd": 0.2,
+      "output_usd": 0.6,
+      "context": 32000,
+      "link": "https://mistral.ai/products/la-plateforme#pricing",
+      "tags": [
+        "europeu"
+      ],
+      "rank": 4,
+      "custo_resumo_usd": 0.0036,
+      "custo_resumo_brl": 0.02
+    },
+    {
+      "id": "grok-3-mini",
+      "nome": "Grok 3 mini (xAI)",
+      "preset_id": "grok",
+      "input_usd": 0.3,
+      "output_usd": 0.5,
+      "context": 131072,
+      "link": "https://x.ai/api",
+      "tags": [
+        "voz neural",
+        "transcrição"
+      ],
+      "rank": 5,
+      "custo_resumo_usd": 0.005,
+      "custo_resumo_brl": 0.0278
+    },
+    {
+      "id": "gemini-2-5-flash",
+      "nome": "Gemini 2.5 Flash",
+      "preset_id": "gemini",
+      "input_usd": 0.3,
+      "output_usd": 2.5,
+      "context": 1000000,
+      "link": "https://ai.google.dev/pricing",
+      "tags": [],
+      "rank": 6,
+      "custo_resumo_usd": 0.007,
+      "custo_resumo_brl": 0.0389
+    },
+    {
+      "id": "glm-4-7",
+      "nome": "GLM 4.7 (Z.ai)",
+      "preset_id": "zai",
+      "input_usd": 0.42,
+      "output_usd": 1.68,
+      "context": 128000,
+      "link": "https://z.ai/",
+      "tags": [],
+      "rank": 7,
+      "custo_resumo_usd": 0.008,
+      "custo_resumo_brl": 0.0443
+    },
+    {
+      "id": "llama-3-3-70b-groq",
+      "nome": "Llama 3.3 70B (Groq)",
+      "preset_id": "groq",
+      "input_usd": 0.59,
+      "output_usd": 0.79,
+      "context": 128000,
+      "link": "https://groq.com/pricing/",
+      "tags": [
+        "ultrarrápido",
+        "open source"
+      ],
+      "rank": 8,
+      "custo_resumo_usd": 0.0096,
+      "custo_resumo_brl": 0.0535
+    },
+    {
+      "id": "llama-3-3-70b-together",
+      "nome": "Llama 3.3 70B (Together)",
+      "preset_id": "together",
+      "input_usd": 0.59,
+      "output_usd": 0.79,
+      "context": 128000,
+      "link": "https://www.together.ai/pricing",
+      "tags": [
+        "open source"
+      ],
+      "rank": 9,
+      "custo_resumo_usd": 0.0096,
+      "custo_resumo_brl": 0.0535
+    },
+    {
+      "id": "qwen3-max",
+      "nome": "Qwen3 Max (Alibaba)",
+      "preset_id": "qwen",
+      "input_usd": 0.78,
+      "output_usd": 3.9,
+      "context": 128000,
+      "link": "https://dashscope.console.aliyun.com/pricing",
+      "tags": [],
+      "rank": 10,
+      "custo_resumo_usd": 0.0156,
+      "custo_resumo_brl": 0.0866
+    },
+    {
+      "id": "kimi-k2-6",
+      "nome": "Kimi K2.6 (Moonshot)",
+      "preset_id": "kimi",
+      "input_usd": 0.95,
+      "output_usd": 4.0,
+      "context": 128000,
+      "link": "https://platform.moonshot.ai/pricing",
+      "tags": [],
+      "rank": 11,
+      "custo_resumo_usd": 0.0182,
+      "custo_resumo_brl": 0.1013
+    },
+    {
+      "id": "claude-haiku-4-5",
+      "nome": "Claude Haiku 4.5 (Anthropic)",
+      "preset_id": "anthropic",
+      "input_usd": 1.0,
+      "output_usd": 5.0,
+      "context": 200000,
+      "link": "https://www.anthropic.com/pricing",
+      "tags": [],
+      "rank": 12,
+      "custo_resumo_usd": 0.02,
+      "custo_resumo_brl": 0.111
+    },
+    {
+      "id": "glm-5-1",
+      "nome": "GLM-5.1 (Z.ai)",
+      "preset_id": "zai",
+      "input_usd": 1.4,
+      "output_usd": 4.4,
+      "context": 128000,
+      "link": "https://z.ai/",
+      "tags": [],
+      "rank": 13,
+      "custo_resumo_usd": 0.0254,
+      "custo_resumo_brl": 0.141
+    },
+    {
+      "id": "gpt-5",
+      "nome": "GPT-5 (OpenAI)",
+      "preset_id": "openai",
+      "input_usd": 1.25,
+      "output_usd": 10.0,
+      "context": 256000,
+      "link": "https://openai.com/api/pricing/",
+      "tags": [],
+      "rank": 14,
+      "custo_resumo_usd": 0.0288,
+      "custo_resumo_brl": 0.1596
+    },
+    {
+      "id": "deepseek-v4-pro",
+      "nome": "DeepSeek V4 Pro",
+      "preset_id": "deepseek",
+      "input_usd": 1.74,
+      "output_usd": 3.48,
+      "context": 64000,
+      "link": "https://api-docs.deepseek.com/quick_start/pricing/",
+      "tags": [],
+      "rank": 15,
+      "custo_resumo_usd": 0.0296,
+      "custo_resumo_brl": 0.1642
+    },
+    {
+      "id": "kimi-k3",
+      "nome": "Kimi K3 (Moonshot)",
+      "preset_id": "kimi",
+      "input_usd": 3.0,
+      "output_usd": 15.0,
+      "context": 256000,
+      "link": "https://platform.moonshot.ai/pricing",
+      "tags": [
+        "pesquisa profunda"
+      ],
+      "rank": 16,
+      "custo_resumo_usd": 0.06,
+      "custo_resumo_brl": 0.333
+    },
+    {
+      "id": "claude-sonnet-4-6",
+      "nome": "Claude Sonnet 4.6 (Anthropic)",
+      "preset_id": "anthropic",
+      "input_usd": 3.0,
+      "output_usd": 15.0,
+      "context": 200000,
+      "link": "https://www.anthropic.com/pricing",
+      "tags": [],
+      "rank": 17,
+      "custo_resumo_usd": 0.06,
+      "custo_resumo_brl": 0.333
+    },
+    {
+      "id": "claude-opus-4-7",
+      "nome": "Claude Opus 4.7 (Anthropic)",
+      "preset_id": "anthropic",
+      "input_usd": 5.0,
+      "output_usd": 25.0,
+      "context": 200000,
+      "link": "https://www.anthropic.com/pricing",
+      "tags": [
+        "premium"
+      ],
+      "rank": 18,
+      "custo_resumo_usd": 0.1,
+      "custo_resumo_brl": 0.555
+    }
+  ],
+  "fonte": "atualizador_precos_llm.py (tabela canônica + scraping OpenRouter/DeepSeek)"
+}
