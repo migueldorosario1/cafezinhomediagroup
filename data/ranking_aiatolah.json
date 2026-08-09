@@ -1,0 +1,277 @@
+{
+  "updated_at": "2026-08-09",
+  "usd_brl": 5.55,
+  "note": "Prices are per million tokens (input/output). Updated automatically by agente atualizador_precos_llm (Cafezinho Media Group).",
+  "models": [
+    {
+      "id": "glm-4-flash",
+      "name": "GLM-4 Flash",
+      "provider": "Zhipu AI",
+      "country": "CN",
+      "flag": "🇨🇳",
+      "input_usd": 0.07,
+      "output_usd": 0.07,
+      "quality": "B",
+      "speed": "Very Fast",
+      "open_source": false,
+      "tags": [
+        "mais barato"
+      ],
+      "link": "https://z.ai/"
+    },
+    {
+      "id": "mistral-small",
+      "name": "Mistral Small",
+      "provider": "Mistral AI",
+      "country": "FR",
+      "flag": "🇫🇷",
+      "input_usd": 0.1,
+      "output_usd": 0.3,
+      "quality": "B",
+      "speed": "Fast",
+      "open_source": false,
+      "tags": [
+        "europeu"
+      ],
+      "link": "https://mistral.ai/products/la-plateforme#pricing"
+    },
+    {
+      "id": "deepseek-v4-flash",
+      "name": "DeepSeek V4 Flash",
+      "provider": "DeepSeek",
+      "country": "CN",
+      "flag": "🇨🇳",
+      "input_usd": 0.14,
+      "output_usd": 0.28,
+      "quality": "S",
+      "speed": "Very Fast",
+      "open_source": false,
+      "tags": [
+        "econômico"
+      ],
+      "link": "https://api-docs.deepseek.com/quick_start/pricing/"
+    },
+    {
+      "id": "gpt-4o-mini",
+      "name": "GPT-4o mini",
+      "provider": "OpenAI",
+      "country": "US",
+      "flag": "🇺🇸",
+      "input_usd": 0.15,
+      "output_usd": 0.6,
+      "quality": "A",
+      "speed": "Fast",
+      "open_source": false,
+      "tags": [],
+      "link": "https://openai.com/api/pricing/"
+    },
+    {
+      "id": "grok-3-mini",
+      "name": "Grok 3 mini",
+      "provider": "xAI",
+      "country": "US",
+      "flag": "🇺🇸",
+      "input_usd": 0.3,
+      "output_usd": 0.5,
+      "quality": "A",
+      "speed": "Fast",
+      "open_source": false,
+      "tags": [
+        "voz neural",
+        "transcrição"
+      ],
+      "link": "https://x.ai/api"
+    },
+    {
+      "id": "gemini-2-5-flash",
+      "name": "Gemini 2.5 Flash",
+      "provider": "Google",
+      "country": "US",
+      "flag": "🇺🇸",
+      "input_usd": 0.3,
+      "output_usd": 2.5,
+      "quality": "A",
+      "speed": "Very Fast",
+      "open_source": false,
+      "tags": [],
+      "link": "https://ai.google.dev/pricing"
+    },
+    {
+      "id": "glm-4-7",
+      "name": "GLM 4.7",
+      "provider": "Zhipu AI",
+      "country": "CN",
+      "flag": "🇨🇳",
+      "input_usd": 0.42,
+      "output_usd": 1.68,
+      "quality": "A",
+      "speed": "Fast",
+      "open_source": false,
+      "tags": [],
+      "link": "https://z.ai/"
+    },
+    {
+      "id": "llama-3-3-70b-groq",
+      "name": "Llama 3.3 70B",
+      "provider": "Groq",
+      "country": "US",
+      "flag": "🇺🇸",
+      "input_usd": 0.59,
+      "output_usd": 0.79,
+      "quality": "B",
+      "speed": "Very Fast",
+      "open_source": true,
+      "tags": [
+        "ultrarrápido",
+        "open source"
+      ],
+      "link": "https://groq.com/pricing/"
+    },
+    {
+      "id": "llama-3-3-70b-together",
+      "name": "Llama 3.3 70B",
+      "provider": "Together AI",
+      "country": "US",
+      "flag": "🇺🇸",
+      "input_usd": 0.59,
+      "output_usd": 0.79,
+      "quality": "B",
+      "speed": "Fast",
+      "open_source": true,
+      "tags": [
+        "open source"
+      ],
+      "link": "https://www.together.ai/pricing"
+    },
+    {
+      "id": "qwen3-max",
+      "name": "Qwen3 Max",
+      "provider": "Alibaba",
+      "country": "CN",
+      "flag": "🇨🇳",
+      "input_usd": 0.78,
+      "output_usd": 3.9,
+      "quality": "A",
+      "speed": "Medium",
+      "open_source": false,
+      "tags": [],
+      "link": "https://dashscope.console.aliyun.com/pricing"
+    },
+    {
+      "id": "kimi-k2-6",
+      "name": "Kimi K2.6",
+      "provider": "Moonshot",
+      "country": "CN",
+      "flag": "🇨🇳",
+      "input_usd": 0.95,
+      "output_usd": 4.0,
+      "quality": "A",
+      "speed": "Medium",
+      "open_source": false,
+      "tags": [],
+      "link": "https://platform.moonshot.ai/pricing"
+    },
+    {
+      "id": "claude-haiku-4-5",
+      "name": "Claude Haiku 4.5",
+      "provider": "Anthropic",
+      "country": "US",
+      "flag": "🇺🇸",
+      "input_usd": 1.0,
+      "output_usd": 5.0,
+      "quality": "A",
+      "speed": "Fast",
+      "open_source": false,
+      "tags": [],
+      "link": "https://www.anthropic.com/pricing"
+    },
+    {
+      "id": "gpt-5",
+      "name": "GPT-5",
+      "provider": "OpenAI",
+      "country": "US",
+      "flag": "🇺🇸",
+      "input_usd": 1.25,
+      "output_usd": 10.0,
+      "quality": "S",
+      "speed": "Medium",
+      "open_source": false,
+      "tags": [],
+      "link": "https://openai.com/api/pricing/"
+    },
+    {
+      "id": "glm-5-1",
+      "name": "GLM-5.1",
+      "provider": "Zhipu AI",
+      "country": "CN",
+      "flag": "🇨🇳",
+      "input_usd": 1.4,
+      "output_usd": 4.4,
+      "quality": "S",
+      "speed": "Medium",
+      "open_source": false,
+      "tags": [],
+      "link": "https://z.ai/"
+    },
+    {
+      "id": "deepseek-v4-pro",
+      "name": "DeepSeek V4 Pro",
+      "provider": "DeepSeek",
+      "country": "CN",
+      "flag": "🇨🇳",
+      "input_usd": 1.74,
+      "output_usd": 3.48,
+      "quality": "S",
+      "speed": "Medium",
+      "open_source": false,
+      "tags": [],
+      "link": "https://api-docs.deepseek.com/quick_start/pricing/"
+    },
+    {
+      "id": "kimi-k3",
+      "name": "Kimi K3",
+      "provider": "Moonshot",
+      "country": "CN",
+      "flag": "🇨🇳",
+      "input_usd": 3.0,
+      "output_usd": 15.0,
+      "quality": "S",
+      "speed": "Slow",
+      "open_source": false,
+      "tags": [
+        "pesquisa profunda"
+      ],
+      "link": "https://platform.moonshot.ai/pricing"
+    },
+    {
+      "id": "claude-sonnet-4-6",
+      "name": "Claude Sonnet 4.6",
+      "provider": "Anthropic",
+      "country": "US",
+      "flag": "🇺🇸",
+      "input_usd": 3.0,
+      "output_usd": 15.0,
+      "quality": "S",
+      "speed": "Medium",
+      "open_source": false,
+      "tags": [],
+      "link": "https://www.anthropic.com/pricing"
+    },
+    {
+      "id": "claude-opus-4-7",
+      "name": "Claude Opus 4.7",
+      "provider": "Anthropic",
+      "country": "US",
+      "flag": "🇺🇸",
+      "input_usd": 5.0,
+      "output_usd": 25.0,
+      "quality": "S",
+      "speed": "Slow",
+      "open_source": false,
+      "tags": [
+        "premium"
+      ],
+      "link": "https://www.anthropic.com/pricing"
+    }
+  ]
+}
