@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-09T19:34:57+00:00",
+  "updated_at": "2026-08-09T19:43:00+00:00",
   "usd_brl": 5.55,
   "modelos": [
     {
@@ -13,9 +13,36 @@
       "tags": [
         "mais barato"
       ],
+      "provider": "Zhipu AI",
+      "country": "CN",
+      "flag": "🇨🇳",
+      "quality": "B",
+      "speed": "Very Fast",
+      "open_source": false,
       "rank": 1,
       "custo_resumo_usd": 0.0011,
       "custo_resumo_brl": 0.0062
+    },
+    {
+      "id": "mistral-small",
+      "nome": "Mistral Small (Mistral AI)",
+      "preset_id": "mistral",
+      "input_usd": 0.1,
+      "output_usd": 0.3,
+      "context": 32000,
+      "link": "https://mistral.ai/products/la-plateforme#pricing",
+      "tags": [
+        "europeu"
+      ],
+      "provider": "Mistral AI",
+      "country": "FR",
+      "flag": "🇫🇷",
+      "quality": "B",
+      "speed": "Fast",
+      "open_source": false,
+      "rank": 2,
+      "custo_resumo_usd": 0.0018,
+      "custo_resumo_brl": 0.01
     },
     {
       "id": "deepseek-v4-flash",
@@ -28,7 +55,13 @@
       "tags": [
         "econômico"
       ],
-      "rank": 2,
+      "provider": "DeepSeek",
+      "country": "CN",
+      "flag": "🇨🇳",
+      "quality": "S",
+      "speed": "Very Fast",
+      "open_source": false,
+      "rank": 3,
       "custo_resumo_usd": 0.0024,
       "custo_resumo_brl": 0.0132
     },
@@ -41,24 +74,15 @@
       "context": 128000,
       "link": "https://openai.com/api/pricing/",
       "tags": [],
-      "rank": 3,
+      "provider": "OpenAI",
+      "country": "US",
+      "flag": "🇺🇸",
+      "quality": "A",
+      "speed": "Fast",
+      "open_source": false,
+      "rank": 4,
       "custo_resumo_usd": 0.0029,
       "custo_resumo_brl": 0.0158
-    },
-    {
-      "id": "mistral-small",
-      "nome": "Mistral Small (Mistral AI)",
-      "preset_id": "mistral",
-      "input_usd": 0.2,
-      "output_usd": 0.6,
-      "context": 32000,
-      "link": "https://mistral.ai/products/la-plateforme#pricing",
-      "tags": [
-        "europeu"
-      ],
-      "rank": 4,
-      "custo_resumo_usd": 0.0036,
-      "custo_resumo_brl": 0.02
     },
     {
       "id": "grok-3-mini",
@@ -72,6 +96,12 @@
         "voz neural",
         "transcrição"
       ],
+      "provider": "xAI",
+      "country": "US",
+      "flag": "🇺🇸",
+      "quality": "A",
+      "speed": "Fast",
+      "open_source": false,
       "rank": 5,
       "custo_resumo_usd": 0.005,
       "custo_resumo_brl": 0.0278
@@ -85,6 +115,12 @@
       "context": 1000000,
       "link": "https://ai.google.dev/pricing",
       "tags": [],
+      "provider": "Google",
+      "country": "US",
+      "flag": "🇺🇸",
+      "quality": "A",
+      "speed": "Very Fast",
+      "open_source": false,
       "rank": 6,
       "custo_resumo_usd": 0.007,
       "custo_resumo_brl": 0.0389
@@ -98,6 +134,12 @@
       "context": 128000,
       "link": "https://z.ai/",
       "tags": [],
+      "provider": "Zhipu AI",
+      "country": "CN",
+      "flag": "🇨🇳",
+      "quality": "A",
+      "speed": "Fast",
+      "open_source": false,
       "rank": 7,
       "custo_resumo_usd": 0.008,
       "custo_resumo_brl": 0.0443
@@ -114,6 +156,12 @@
         "ultrarrápido",
         "open source"
       ],
+      "provider": "Groq",
+      "country": "US",
+      "flag": "🇺🇸",
+      "quality": "B",
+      "speed": "Very Fast",
+      "open_source": true,
       "rank": 8,
       "custo_resumo_usd": 0.0096,
       "custo_resumo_brl": 0.0535
@@ -129,6 +177,12 @@
       "tags": [
         "open source"
       ],
+      "provider": "Together AI",
+      "country": "US",
+      "flag": "🇺🇸",
+      "quality": "B",
+      "speed": "Fast",
+      "open_source": true,
       "rank": 9,
       "custo_resumo_usd": 0.0096,
       "custo_resumo_brl": 0.0535
@@ -142,6 +196,12 @@
       "context": 128000,
       "link": "https://dashscope.console.aliyun.com/pricing",
       "tags": [],
+      "provider": "Alibaba",
+      "country": "CN",
+      "flag": "🇨🇳",
+      "quality": "A",
+      "speed": "Medium",
+      "open_source": false,
       "rank": 10,
       "custo_resumo_usd": 0.0156,
       "custo_resumo_brl": 0.0866
@@ -155,6 +215,12 @@
       "context": 128000,
       "link": "https://platform.moonshot.ai/pricing",
       "tags": [],
+      "provider": "Moonshot",
+      "country": "CN",
+      "flag": "🇨🇳",
+      "quality": "A",
+      "speed": "Medium",
+      "open_source": false,
       "rank": 11,
       "custo_resumo_usd": 0.0182,
       "custo_resumo_brl": 0.1013
@@ -168,6 +234,12 @@
       "context": 200000,
       "link": "https://www.anthropic.com/pricing",
       "tags": [],
+      "provider": "Anthropic",
+      "country": "US",
+      "flag": "🇺🇸",
+      "quality": "A",
+      "speed": "Fast",
+      "open_source": false,
       "rank": 12,
       "custo_resumo_usd": 0.02,
       "custo_resumo_brl": 0.111
@@ -181,6 +253,12 @@
       "context": 128000,
       "link": "https://z.ai/",
       "tags": [],
+      "provider": "Zhipu AI",
+      "country": "CN",
+      "flag": "🇨🇳",
+      "quality": "S",
+      "speed": "Medium",
+      "open_source": false,
       "rank": 13,
       "custo_resumo_usd": 0.0254,
       "custo_resumo_brl": 0.141
@@ -194,6 +272,12 @@
       "context": 256000,
       "link": "https://openai.com/api/pricing/",
       "tags": [],
+      "provider": "OpenAI",
+      "country": "US",
+      "flag": "🇺🇸",
+      "quality": "S",
+      "speed": "Medium",
+      "open_source": false,
       "rank": 14,
       "custo_resumo_usd": 0.0288,
       "custo_resumo_brl": 0.1596
@@ -207,6 +291,12 @@
       "context": 64000,
       "link": "https://api-docs.deepseek.com/quick_start/pricing/",
       "tags": [],
+      "provider": "DeepSeek",
+      "country": "CN",
+      "flag": "🇨🇳",
+      "quality": "S",
+      "speed": "Medium",
+      "open_source": false,
       "rank": 15,
       "custo_resumo_usd": 0.0296,
       "custo_resumo_brl": 0.1642
@@ -222,6 +312,12 @@
       "tags": [
         "pesquisa profunda"
       ],
+      "provider": "Moonshot",
+      "country": "CN",
+      "flag": "🇨🇳",
+      "quality": "S",
+      "speed": "Slow",
+      "open_source": false,
       "rank": 16,
       "custo_resumo_usd": 0.06,
       "custo_resumo_brl": 0.333
@@ -235,6 +331,12 @@
       "context": 200000,
       "link": "https://www.anthropic.com/pricing",
       "tags": [],
+      "provider": "Anthropic",
+      "country": "US",
+      "flag": "🇺🇸",
+      "quality": "S",
+      "speed": "Medium",
+      "open_source": false,
       "rank": 17,
       "custo_resumo_usd": 0.06,
       "custo_resumo_brl": 0.333
@@ -250,6 +352,12 @@
       "tags": [
         "premium"
       ],
+      "provider": "Anthropic",
+      "country": "US",
+      "flag": "🇺🇸",
+      "quality": "S",
+      "speed": "Slow",
+      "open_source": false,
       "rank": 18,
       "custo_resumo_usd": 0.1,
       "custo_resumo_brl": 0.555
