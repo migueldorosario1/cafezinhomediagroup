@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-09T22:57:59+00:00",
+  "updated_at": "2026-08-10T01:50:35+00:00",
   "usd_brl": 5.55,
   "modelos": [
     {
@@ -11,7 +11,7 @@
       "context": 128000,
       "link": "https://z.ai/",
       "tags": [
-        "mais barato"
+        "cheapest"
       ],
       "provider": "Zhipu AI",
       "country": "CN",
@@ -32,7 +32,7 @@
       "context": 32000,
       "link": "https://mistral.ai/products/la-plateforme#pricing",
       "tags": [
-        "europeu"
+        "European"
       ],
       "provider": "Mistral AI",
       "country": "FR",
@@ -53,7 +53,7 @@
       "context": 64000,
       "link": "https://api-docs.deepseek.com/quick_start/pricing/",
       "tags": [
-        "econômico"
+        "economical"
       ],
       "provider": "DeepSeek",
       "country": "CN",
@@ -93,8 +93,8 @@
       "context": 131072,
       "link": "https://x.ai/api",
       "tags": [
-        "voz neural",
-        "transcrição"
+        "neural voice",
+        "transcription"
       ],
       "provider": "xAI",
       "country": "US",
@@ -153,7 +153,7 @@
       "context": 128000,
       "link": "https://groq.com/pricing/",
       "tags": [
-        "ultrarrápido",
+        "ultra fast",
         "open source"
       ],
       "provider": "Groq",
@@ -310,7 +310,7 @@
       "context": 256000,
       "link": "https://platform.moonshot.ai/pricing",
       "tags": [
-        "pesquisa profunda"
+        "deep research"
       ],
       "provider": "Moonshot",
       "country": "CN",
