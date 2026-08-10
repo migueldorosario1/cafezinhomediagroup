@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-09",
+  "updated_at": "2026-08-10",
   "usd_brl": 5.55,
   "note": "Prices are per million tokens (input/output). Updated automatically by agente atualizador_precos_llm (Cafezinho Media Group).",
   "models": [
@@ -15,7 +15,7 @@
       "speed": "Very Fast",
       "open_source": false,
       "tags": [
-        "mais barato"
+        "cheapest"
       ],
       "link": "https://z.ai/"
     },
@@ -31,7 +31,7 @@
       "speed": "Fast",
       "open_source": false,
       "tags": [
-        "europeu"
+        "European"
       ],
       "link": "https://mistral.ai/products/la-plateforme#pricing"
     },
@@ -47,7 +47,7 @@
       "speed": "Very Fast",
       "open_source": false,
       "tags": [
-        "econômico"
+        "economical"
       ],
       "link": "https://api-docs.deepseek.com/quick_start/pricing/"
     },
@@ -77,8 +77,8 @@
       "speed": "Fast",
       "open_source": false,
       "tags": [
-        "voz neural",
-        "transcrição"
+        "neural voice",
+        "transcription"
       ],
       "link": "https://x.ai/api"
     },
@@ -122,7 +122,7 @@
       "speed": "Very Fast",
       "open_source": true,
       "tags": [
-        "ultrarrápido",
+        "ultra fast",
         "open source"
       ],
       "link": "https://groq.com/pricing/"
@@ -239,7 +239,7 @@
       "speed": "Slow",
       "open_source": false,
       "tags": [
-        "pesquisa profunda"
+        "deep research"
       ],
       "link": "https://platform.moonshot.ai/pricing"
     },
